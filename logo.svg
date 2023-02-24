@@ -1,0 +1,22 @@
+
+    <svg width="310" height="310" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <rect
+    x="10"
+    y="10"
+    width="290"
+    height="290"
+    stroke="grey"
+    fill="black"
+    stroke-width="5"
+  />
+  <text 
+  x="150" 
+  y="150" 
+  text-anchor="middle" 
+  font-size="100" 
+  fill="grey" 
+  dominant-baseline="middle">
+  YOO</text>
+  
+  </svg>
+    
