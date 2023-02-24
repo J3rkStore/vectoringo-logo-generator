@@ -3,9 +3,6 @@ const fs = require("fs");
 const jest = require("jest");
 const shapes = require("./lib/shapes.js");
 const Shape = require("./lib/shapes.js");
-// const Triangle = require("./lib/shapes.js");
-// const Square = require("./lib/shapes.js");
-// const Circle = require("./lib/shapes.js");
 const { Circle, Triangle, Square } = require("./lib/shapes.js");
 
 const questions = [
@@ -71,7 +68,7 @@ function setParams() {
     }
     console.log(data.shape);
     svg.name = data.text.toUpperCase();
-    svg.color = data.color;
+    svg.setColor(data.color);
     svg.textColor = data.textColor;
     console.log(svg.color);
     console.log(svg.name);
