@@ -23,6 +23,7 @@ Copy the repository. Install Node.js in the containing folder
 ## Usage
 
 Run the app from command linewith the command "nodenode index.js
+demonstration video at https://drive.google.com/file/d/1ZhOVlQhuhUrbX9zC2DA8qHvttewLWx6j/view
 
 ## License
 
