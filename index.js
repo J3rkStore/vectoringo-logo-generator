@@ -5,6 +5,7 @@ const shapes = require("./lib/shapes.js");
 const Shape = require("./lib/shapes.js");
 const { Circle, Triangle, Square } = require("./lib/shapes.js");
 
+//questions will be called with inquirer.prompt within the setParams function
 const questions = [
   {
     type: "list",
@@ -81,39 +82,3 @@ function setParams() {
 }
 
 setParams();
-
-// const circle = new Triangle();
-// circle.name = "hi";
-// circle.color = "green";
-// fs.writeFile("logo.svg", circle.render(), (err) => {
-//   err ? console.error(error) : console.log("\x1b[34mGenerated logo.svg\x1b[0m");
-// });
-
-//these functions are kind of here for testing
-
-// function setShape() {
-//   return inquirer.prompt(shapePrompt).then((data) => {
-//     console.log(data);
-//     if (data == "triangle") {
-//       svg = new Triangle();
-//     } else if (data == "circle") {
-//       svg = new Circle();
-//     } else if (data == "square") {
-//       svg = new Square();
-//     }
-//   });
-// }
-
-// function setText() {
-//   return inquirer.prompt(textPrompt).then((data) => {
-//     console.log(data);
-//     svg.name = data;
-//   });
-// }
-
-// function setColor() {
-//   return inquirer.prompt(colorPrompt).then((data) => {
-//     console.log(data);
-//     svg.color = data;
-//   });
-// }
