@@ -4,7 +4,7 @@
 
 ## Description
 
-Uses command line interface to generage an SVG file based on user input
+Uses command line interface to generate an SVG file based on user input
 
 ## Table of Contents
 
@@ -22,8 +22,9 @@ Copy the repository. Install Node.js in the containing folder
 
 ## Usage
 
-Run the app from command linewith the command "nodenode index.js
-demonstration video at https://drive.google.com/file/d/1ZhOVlQhuhUrbX9zC2DA8qHvttewLWx6j/view
+Run the app from command linewith the command "nodenode index.js.  
+
+Demonstration video at https://drive.google.com/file/d/1ZhOVlQhuhUrbX9zC2DA8qHvttewLWx6j/view
 
 ## License
 
